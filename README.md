@@ -6,9 +6,7 @@
 演示结果如下：
 
 ![image](https://github.com/xiayuanquan/XYQFengHuangNews/blob/master/FHNewsClient/FHNewsClient/Classes/screenshots/head.png)
-
 ![image](https://github.com/xiayuanquan/XYQFengHuangNews/blob/master/FHNewsClient/FHNewsClient/Classes/screenshots/entertament.png)
 
 ![image](https://github.com/xiayuanquan/XYQFengHuangNews/blob/master/FHNewsClient/FHNewsClient/Classes/screenshots/car.png)
-
 ![image](https://github.com/xiayuanquan/XYQFengHuangNews/blob/master/FHNewsClient/FHNewsClient/Classes/screenshots/beauty.png)
