@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0435FC411D6AE264001E5556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435FC401D6AE264001E5556 /* main.m */; };
+		0435FC441D6AE264001E5556 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435FC431D6AE264001E5556 /* AppDelegate.m */; };
+		0435FC471D6AE264001E5556 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435FC461D6AE264001E5556 /* ViewController.m */; };
+		0435FC4A1D6AE264001E5556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0435FC481D6AE264001E5556 /* Main.storyboard */; };
+		0435FC4C1D6AE264001E5556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0435FC4B1D6AE264001E5556 /* Assets.xcassets */; };
+		0435FC4F1D6AE264001E5556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0435FC4D1D6AE264001E5556 /* LaunchScreen.storyboard */; };
+		0435FC5A1D6AE264001E5556 /* FHNewsClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435FC591D6AE264001E5556 /* FHNewsClientTests.m */; };
+		0435FC651D6AE264001E5556 /* FHNewsClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435FC641D6AE264001E5556 /* FHNewsClientUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0435FC561D6AE264001E5556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0435FC341D6AE264001E5556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0435FC3B1D6AE264001E5556;
+			remoteInfo = FHNewsClient;
+		};
+		0435FC611D6AE264001E5556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0435FC341D6AE264001E5556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0435FC3B1D6AE264001E5556;
+			remoteInfo = FHNewsClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0435FC3C1D6AE264001E5556 /* FHNewsClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHNewsClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0435FC401D6AE264001E5556 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0435FC421D6AE264001E5556 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0435FC431D6AE264001E5556 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0435FC451D6AE264001E5556 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0435FC461D6AE264001E5556 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0435FC491D6AE264001E5556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0435FC4B1D6AE264001E5556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0435FC4E1D6AE264001E5556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0435FC501D6AE264001E5556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0435FC551D6AE264001E5556 /* FHNewsClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FHNewsClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0435FC591D6AE264001E5556 /* FHNewsClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHNewsClientTests.m; sourceTree = "<group>"; };
+		0435FC5B1D6AE264001E5556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0435FC601D6AE264001E5556 /* FHNewsClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FHNewsClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0435FC641D6AE264001E5556 /* FHNewsClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHNewsClientUITests.m; sourceTree = "<group>"; };
+		0435FC661D6AE264001E5556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0435FC391D6AE264001E5556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0435FC521D6AE264001E5556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0435FC5D1D6AE264001E5556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0435FC331D6AE264001E5556 = {
+			isa = PBXGroup;
+			children = (
+				0435FC3E1D6AE264001E5556 /* FHNewsClient */,
+				0435FC581D6AE264001E5556 /* FHNewsClientTests */,
+				0435FC631D6AE264001E5556 /* FHNewsClientUITests */,
+				0435FC3D1D6AE264001E5556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0435FC3D1D6AE264001E5556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0435FC3C1D6AE264001E5556 /* FHNewsClient.app */,
+				0435FC551D6AE264001E5556 /* FHNewsClientTests.xctest */,
+				0435FC601D6AE264001E5556 /* FHNewsClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0435FC3E1D6AE264001E5556 /* FHNewsClient */ = {
+			isa = PBXGroup;
+			children = (
+				0435FC421D6AE264001E5556 /* AppDelegate.h */,
+				0435FC431D6AE264001E5556 /* AppDelegate.m */,
+				0435FC451D6AE264001E5556 /* ViewController.h */,
+				0435FC461D6AE264001E5556 /* ViewController.m */,
+				0435FC481D6AE264001E5556 /* Main.storyboard */,
+				0435FC4B1D6AE264001E5556 /* Assets.xcassets */,
+				0435FC4D1D6AE264001E5556 /* LaunchScreen.storyboard */,
+				0435FC501D6AE264001E5556 /* Info.plist */,
+				0435FC3F1D6AE264001E5556 /* Supporting Files */,
+			);
+			path = FHNewsClient;
+			sourceTree = "<group>";
+		};
+		0435FC3F1D6AE264001E5556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0435FC401D6AE264001E5556 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0435FC581D6AE264001E5556 /* FHNewsClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				0435FC591D6AE264001E5556 /* FHNewsClientTests.m */,
+				0435FC5B1D6AE264001E5556 /* Info.plist */,
+			);
+			path = FHNewsClientTests;
+			sourceTree = "<group>";
+		};
+		0435FC631D6AE264001E5556 /* FHNewsClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0435FC641D6AE264001E5556 /* FHNewsClientUITests.m */,
+				0435FC661D6AE264001E5556 /* Info.plist */,
+			);
+			path = FHNewsClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0435FC3B1D6AE264001E5556 /* FHNewsClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0435FC691D6AE264001E5556 /* Build configuration list for PBXNativeTarget "FHNewsClient" */;
+			buildPhases = (
+				0435FC381D6AE264001E5556 /* Sources */,
+				0435FC391D6AE264001E5556 /* Frameworks */,
+				0435FC3A1D6AE264001E5556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FHNewsClient;
+			productName = FHNewsClient;
+			productReference = 0435FC3C1D6AE264001E5556 /* FHNewsClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0435FC541D6AE264001E5556 /* FHNewsClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0435FC6C1D6AE264001E5556 /* Build configuration list for PBXNativeTarget "FHNewsClientTests" */;
+			buildPhases = (
+				0435FC511D6AE264001E5556 /* Sources */,
+				0435FC521D6AE264001E5556 /* Frameworks */,
+				0435FC531D6AE264001E5556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0435FC571D6AE264001E5556 /* PBXTargetDependency */,
+			);
+			name = FHNewsClientTests;
+			productName = FHNewsClientTests;
+			productReference = 0435FC551D6AE264001E5556 /* FHNewsClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0435FC5F1D6AE264001E5556 /* FHNewsClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0435FC6F1D6AE264001E5556 /* Build configuration list for PBXNativeTarget "FHNewsClientUITests" */;
+			buildPhases = (
+				0435FC5C1D6AE264001E5556 /* Sources */,
+				0435FC5D1D6AE264001E5556 /* Frameworks */,
+				0435FC5E1D6AE264001E5556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0435FC621D6AE264001E5556 /* PBXTargetDependency */,
+			);
+			name = FHNewsClientUITests;
+			productName = FHNewsClientUITests;
+			productReference = 0435FC601D6AE264001E5556 /* FHNewsClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0435FC341D6AE264001E5556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiayuanquan;
+				TargetAttributes = {
+					0435FC3B1D6AE264001E5556 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0435FC541D6AE264001E5556 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0435FC3B1D6AE264001E5556;
+					};
+					0435FC5F1D6AE264001E5556 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0435FC3B1D6AE264001E5556;
+					};
+				};
+			};
+			buildConfigurationList = 0435FC371D6AE264001E5556 /* Build configuration list for PBXProject "FHNewsClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0435FC331D6AE264001E5556;
+			productRefGroup = 0435FC3D1D6AE264001E5556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0435FC3B1D6AE264001E5556 /* FHNewsClient */,
+				0435FC541D6AE264001E5556 /* FHNewsClientTests */,
+				0435FC5F1D6AE264001E5556 /* FHNewsClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0435FC3A1D6AE264001E5556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0435FC4F1D6AE264001E5556 /* LaunchScreen.storyboard in Resources */,
+				0435FC4C1D6AE264001E5556 /* Assets.xcassets in Resources */,
+				0435FC4A1D6AE264001E5556 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0435FC531D6AE264001E5556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0435FC5E1D6AE264001E5556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0435FC381D6AE264001E5556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0435FC471D6AE264001E5556 /* ViewController.m in Sources */,
+				0435FC441D6AE264001E5556 /* AppDelegate.m in Sources */,
+				0435FC411D6AE264001E5556 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0435FC511D6AE264001E5556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0435FC5A1D6AE264001E5556 /* FHNewsClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0435FC5C1D6AE264001E5556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0435FC651D6AE264001E5556 /* FHNewsClientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0435FC571D6AE264001E5556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0435FC3B1D6AE264001E5556 /* FHNewsClient */;
+			targetProxy = 0435FC561D6AE264001E5556 /* PBXContainerItemProxy */;
+		};
+		0435FC621D6AE264001E5556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0435FC3B1D6AE264001E5556 /* FHNewsClient */;
+			targetProxy = 0435FC611D6AE264001E5556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0435FC481D6AE264001E5556 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0435FC491D6AE264001E5556 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0435FC4D1D6AE264001E5556 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0435FC4E1D6AE264001E5556 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0435FC671D6AE264001E5556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0435FC681D6AE264001E5556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0435FC6A1D6AE264001E5556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FHNewsClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BYHR.FHNewsClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0435FC6B1D6AE264001E5556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FHNewsClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BYHR.FHNewsClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0435FC6D1D6AE264001E5556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FHNewsClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BYHR.FHNewsClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FHNewsClient.app/FHNewsClient";
+			};
+			name = Debug;
+		};
+		0435FC6E1D6AE264001E5556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FHNewsClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BYHR.FHNewsClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FHNewsClient.app/FHNewsClient";
+			};
+			name = Release;
+		};
+		0435FC701D6AE264001E5556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FHNewsClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BYHR.FHNewsClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FHNewsClient;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0435FC711D6AE264001E5556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FHNewsClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BYHR.FHNewsClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FHNewsClient;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0435FC371D6AE264001E5556 /* Build configuration list for PBXProject "FHNewsClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0435FC671D6AE264001E5556 /* Debug */,
+				0435FC681D6AE264001E5556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0435FC691D6AE264001E5556 /* Build configuration list for PBXNativeTarget "FHNewsClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0435FC6A1D6AE264001E5556 /* Debug */,
+				0435FC6B1D6AE264001E5556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0435FC6C1D6AE264001E5556 /* Build configuration list for PBXNativeTarget "FHNewsClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0435FC6D1D6AE264001E5556 /* Debug */,
+				0435FC6E1D6AE264001E5556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0435FC6F1D6AE264001E5556 /* Build configuration list for PBXNativeTarget "FHNewsClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0435FC701D6AE264001E5556 /* Debug */,
+				0435FC711D6AE264001E5556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0435FC341D6AE264001E5556 /* Project object */;
+}
