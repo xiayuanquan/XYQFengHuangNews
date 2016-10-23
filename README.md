@@ -1,7 +1,7 @@
 # XYQFengHuangNews
 仿写凤凰新闻客户端
 
-config_txt是凤凰新闻的所有接口。
+凤凰新闻的所有接口：http://files.cnblogs.com/files/XYQ-208910/config.rar
 
 演示结果如下：
 
