@@ -1,5 +1,5 @@
 # XYQFengHuangNews
-仿写凤凰新闻客户端
+凤凰新闻客户端
 
 凤凰新闻的所有接口：http://files.cnblogs.com/files/XYQ-208910/config.rar
 
